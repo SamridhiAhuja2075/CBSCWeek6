@@ -1,0 +1,119 @@
+.wrapper{
+    width :100%;
+}
+.im
+body{
+    background-color: #800000;
+}
+p{
+    color: white;
+    background-color: #cc9900;
+    font-family: "Dancing Script";
+    font-size: 20px;
+}
+#podd{
+    color: white;
+    background-color: #284d00 ;
+    font-family: "Dancing Script";
+    font-size: 20px;
+}
+#pform{
+    color: white;
+    background-color: #284d00 ;
+    font-family: "times new roman";
+    font-size: 20px;
+}
+#quote{
+    color: white;
+    background-color: #cc9900;
+    font-family: "Dancing Script";
+    font-size: 20px;
+    align : center
+}
+#author{
+    color: white;
+    background-color: #cc9900;
+    font-family: "Dancing Script";
+    font-size: 20px;
+}
+
+#peven{
+    color: white;
+    background-color: #cc9900;
+    font-family: "Dancing Script";
+    font-size: 20px;
+}
+img{
+    width : 100%;
+    float : left;
+}
+#banner{
+    width : 100%;
+    position : static;
+   
+}
+h1{
+    background-color: black;
+    color: bisque;
+    font-family: 'Aclonica';
+    font-size: 25px;
+    text-align : center ;
+}
+@media only screen and (min-width : 768px){
+    .wrapper{
+        width :100%;
+        margin : 50px auto;
+    }
+    p{
+        font-size: 25px;
+    }
+    #podd{
+        font-size: 25px;
+    }
+    #author{
+        font-size: 25px;
+    }
+    #quote{
+        font-size: 25px;
+    }
+    #peven{
+        font-size: 25px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    img{
+        width : 50%;
+        position : relative;
+        top : 5px;
+    }
+}
+    @media only screen and (min-width : 1000px){
+        .wrapper{
+            width :100%;
+            margin : 50px auto;
+        }
+        p{
+            font-size: 40px;
+        }
+        #podd{
+            font-size: 40px;
+        }
+        #peven{
+            font-size: 40px;
+        }
+        #author{
+            font-size: 40px;
+        }
+        #quote{
+            font-size: 40px;
+        }
+        h1{
+            font-size: 50px;
+        }
+        img{
+            width :60%
+            position : relative;
+            top : 5px;
+        }
+    }
